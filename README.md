@@ -9,7 +9,9 @@ AtliQ Grands has operated for over two decades, with properties in four major ci
 The objective was to build a dynamic Power BI dashboard that provides key insights into revenue, occupancy, cancellations, and customer behavior. This report would enable AtliQ Grands to address its performance gaps, optimize pricing strategies, and increase bookings across different room categories.
 
 **Project Approach**:
-1. Data Import & Transformation:
+
+1. **Data Import & Transformation**
+   
 All provided datasets were imported into Power BI:
 
 dim_date (Date dimension)
@@ -21,7 +23,9 @@ After importing the data:
 
 Data cleansing and transformation were performed using Power Query.
 Relationships between the tables were established to create a STAR schema for optimal reporting.
-2. Key DAX Calculations:
+
+2. **Key DAX Calculations**:
+   
 Several DAX measures and calculated columns were created to meet stakeholder requirements. Below are the critical calculations:
 
 Revenue:
@@ -44,10 +48,12 @@ Realisation % = 1 - ([Cancellation %] + [No Show rate %])
 
 Week-on-Week (WoW) Change (for various metrics): Custom DAX expressions were used to calculate WoW percentage change for key metrics such as Revenue, ADR, Occupancy %, and more.
 
-3. Data Model:
+3. **Data Model**:
+   
 The data model featured a STAR schema, optimizing reporting and analytics. This model facilitated efficient querying and calculation of key metrics across the properties, room classes, cities, and booking platforms.
 
-4. Dashboard Creation:
+4. **Dashboard Creation**:
+   
 The Power BI dashboard followed a mock-up provided by the stakeholders, incorporating the following key components:
 
 **Filters**: City, Property, Room Class, Status, Platforms, and Time (Month/Week).
